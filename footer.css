@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+#footer {
+  width: 1440px;
+  height: 627px;
+  background: #f6f9fc;
+  margin: auto;
+  border: 1px solid transparent;
+}
+
+#footer .flex-container {
+  width: 80%;
+  height: 300px;
+  border: 2px solid transparent;
+  margin-top: 91px;
+  margin-left: 147px;
+  margin-right: 122px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list-1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  width: 180px;
+  height: 100%;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list-2 {
+  width: 218px;
+  height: 100%;
+  border: 1px solid transparent;
+}
+
+.footer-list-3 {
+  width: 229px;
+  height: 100%;
+  border: 1px solid transparent;
+}
+
+.footer-list-4 {
+  width: 102px;
+  height: 100%;
+  border: 1px solid transparent;
+}
+
+.footer-list-5 {
+  width: 140px;
+  height: 100%;
+  border: 1px solid transparent;
+}
+
+.footer-logo {
+  width: 159px;
+  height: 69px;
+}
+
+.footer-list-font-bold {
+  color: black;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.country-div {
+  display: flex;
+  align-items: center;
+}
+
+.country-div a {
+  color: black;
+}
+
+.footer-list-heading {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+  color: #000000;
+  margin-bottom: 39px;
+}
+
+.flag {
+  margin-right: 15px;
+}
+
+.footer-list-2 h3{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 29px;
+
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.footer-list-3 h3{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 29px;
+}
+
+.footer-list-4 h3{
+    margin-bottom: 20px;
+}
+
+.country-div{
+    margin-top: 20px;
+}
+
+.country-div a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+
+.social-icon-div{
+    
+    width: 80%;
+    height: 66px;
+    border: 2px solid transparent;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.social-icon-div a img{
+    width: 66px;
+height: 66px;
+}
+
+.social-icon-div h1{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+color: #000000;
+margin-bottom: 20px;
+
+
+}

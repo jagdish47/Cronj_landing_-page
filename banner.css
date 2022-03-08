@@ -1,0 +1,46 @@
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+
+.banner-container {
+  width: 1440px;
+  height: 412px;
+  background: transparent url("img/banner-img/banner-bg.png") 0% 0% no-repeat
+    padding-box;
+  margin-top: 180px;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-container h1 {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 51px;
+  color: #ffffff;
+}
+
+.banner-container p {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-weight: medium;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.small-banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small-banner {
+    margin-top: 80px;
+  width: 1144px;
+  height: 273px;
+
+  background: transparent url("img/banner-img/small-banner.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}

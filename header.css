@@ -1,0 +1,172 @@
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Most outer container */
+#main-container {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 11500px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  /* border: 1px solid black; */
+  margin: auto;
+}
+
+#header-div {
+  /* Layout Properties */
+  top: 0px;
+  left: 0.05224609375px;
+  width: 1440px;
+  height: 706px;
+  /* UI Properties */
+  background: transparent url("img/Group\ 11151.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: relative;
+}
+
+#navbar {
+  position: absolute;
+  top: 44px;
+  left: 148px;
+  width: 134px;
+  height: 54px;
+  background: transparent url("img/Group 10248.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  /* border: 2px solid white; */
+}
+
+#main-container #header-div #navbar-link {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 54px 0px;
+  /* border: 2px solid white; */
+  width: 1000px;
+  margin-left: 436px;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+
+#main-container #header-div #navbar-link .contact-btn {
+  background: #3764e8 0% 0% no-repeat padding-box;
+  border-radius: 27px;
+  padding: 10px 15px;
+}
+
+#main-container #header-div #navbar-link a i {
+  padding: 0px 10px;
+}
+
+#main-container #header-div .header-sub-div {
+  width: 586px;
+  height: 169px;
+  /* border: 2px solid white; */
+  color: #ffffff;
+
+  top: 184px;
+  left: 427px;
+  position: absolute;
+  text-align: center;
+}
+
+#main-container #header-div .header-sub-div h1 {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  margin-bottom: 15px;
+}
+
+#main-container #header-div .header-sub-div .para-one {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-weight: medium;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 30px;
+
+}
+#main-container #header-div .header-sub-div span {
+  color: #00fff8;
+}
+
+#main-container #header-div .header-sub-div .para-two {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-weight: medium;
+  font-size: 20px;
+  line-height: 48px;
+  box-shadow: 0px 5px 7px #00000029;
+  border: 2px solid #ffffff;
+  border-radius: 16px;
+}
+
+#main-container #header-div .header-sub-div p img{
+ margin: -8px 10px;
+}
+
+
+/* Box starts from here */
+
+#boxes{
+ margin-top: 370px;
+}
+#boxes .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#boxes .container .image-box{
+  width: 276px;
+  height: 285px;
+  background: transparent url('img/Rectangle\ 1365.png') 0% 0% no-repeat padding-box;
+  box-shadow: 2px 22px 14px #0000001F;
+  border-radius: 23px;
+}
+
+#boxes .container .image-box .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 35px 0px;
+}
+
+#boxes .container .image-box .content img, h1, p{
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+#boxes .container .image-box .content h1{
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+#boxes .container .image-box .content h1 span{
+  border-bottom: 2px solid #ffffff;
+}
+
+#boxes .container .image-box .content p{
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 2px;
+  color: #ffffff;
+}
+
+
+

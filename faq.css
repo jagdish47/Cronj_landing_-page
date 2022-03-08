@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.faq-main {
+  height: 937px;
+  width: 1440px;
+  background-color: #f4f7fd;
+}
+
+.faq-main .professional-services span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 41px;
+
+  color: #000000;
+}
+
+.faq-main .professional-services {
+  margin-bottom: 100px;
+}
+
+.faq-flex-container .container {
+  width: 1144px;
+  height: 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #707070;
+  border-radius: 18px;
+}
+
+.faq-flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.faq-flex-container .container h3 {
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.faq-flex-container .container i {
+  margin-right: 20px;
+}

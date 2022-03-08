@@ -1,0 +1,112 @@
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Gilroy-Regular', sans-serif;
+
+}
+
+
+#service-container{
+  margin-top: 90px;
+  height: 2760px;
+  width: 1439px;
+  background-color: #F4F7FD;
+  border: 2px solid transparent;
+}
+#service-container .professional-services{
+  margin-top: 50px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+}
+#service-container .professional-services span{
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 35px;
+  padding: 0px 20px;
+  border: 2px solid transparent;
+}
+
+#service-container .service-bottom-border{
+  display: flex;
+  justify-content: center;
+  border: 2px solid transparent;
+}
+
+
+
+/* ---------------- */
+#service-container .beauty-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 232px;
+  width: 514px;
+  background: #ffffff;
+  border-radius: 23px;
+  border: 3px solid transparent;
+}
+
+#service-container .beauty-container .img-container{
+  height: 70px;
+  width: 66px;
+  border: 2px solid transparent;
+}
+
+#service-container .beauty-container .contant-container{
+  width: 377px;
+  height: 195px;
+  border: 2px solid transparent;
+  text-align: left;
+}
+
+#service-container .beauty-container .contant-container a{
+ color: #3982EF;
+ letter-spacing: 0.18px;
+ font: normal normal medium 18px/21px;
+  border: 2px solid transparent;
+  margin-left: 50px;
+}
+
+#service-container .beauty-container .contant-container h1{
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+#service-container .beauty-container .contant-container p{
+  font-family: 'Gilroy-Regular', sans-serif;
+
+  color: #707070;
+  font-weight: normal;
+  font-size:18px;
+  line-height: 27px;
+  letter-spacing: 0.09px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  justify-items: center;
+  margin-top: 50px;
+  border: 2px solid transparent;
+}
+
+
+
+
+
+
